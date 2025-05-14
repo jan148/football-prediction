@@ -27,3 +27,4 @@ with open(f"{type}.json", "w") as f:
 
 print(json.dumps(response.json(), indent=4))
 
+edc
