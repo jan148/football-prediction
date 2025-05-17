@@ -1,11 +1,11 @@
 import numpy as np
 
 start = 2021
-end = 2023
+end = 2021
 num_seasons = end - start +1
 seasons = np.linspace(start , end, num_seasons, dtype=int)
 
-league_ids = [140] # [39, 78, 135, 186, 140]
+league_ids = [39] # [39, 78, 135, 186, 140]
 
 league_seasons = []
 for league_id in league_ids:
