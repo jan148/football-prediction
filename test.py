@@ -25,6 +25,4 @@ def create_match_ids(league_id, season):
         json.dump(data, f, indent=4)
 
 for league_season in league_seasons:
-    print(league_season[0])
-    print(league_season[1])
     create_match_ids(league_season[0], league_season[1])

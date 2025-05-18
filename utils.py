@@ -15,5 +15,3 @@ def request_sports_api(path, query):
     }
     response = requests.request("GET", url, headers=headers, data=payload)
     return response
-
-
